@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>포트폴리오</title>
+    <style>
+      .store {
+        text-align: center;
+      }
+      .welcome_message {
+        text-align: center;
+      }
+      .card_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        margin-top: 50px;
+        text-align: center;
+        height: 300px;
+      }
+
+      .card_img {
+        width: 60%;
+        height: 60%;
+      }
+
+      .card_title {
+        font-size: 20px;
+      }
+
+      .card_button {
+        font-size: 16px;
+        width: 150px;
+        height: 30px;
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="store">성민석 포트폴리오</h1>
+    <div class="welcome_message">
+      안녕하세요~~~<br />
+      프론트엔드 개발자 취준생 성민석입니다!!
+      <br />
+      <br />
+    </div>
+
+    <div class="card_list">
+      <div class="card">
+        <img class="card_img" src="./img/github.png" />
+        <p class="card_title">깃허브</p>
+
+        <a href="https://velog.io/@minseoook/posts">
+          <input class="card_button" type="button" value="구경하러가기"
+        /></a>
+      </div>
+
+      <div class="card">
+        <img class="card_img" src="./img/velog.png" />
+        <p class="card_title">벨로그</p>
+
+        <a href="https://github.com/minseok-seong">
+          <input class="card_button" type="button" value="구경하러가기"
+        /></a>
+      </div>
+
+      <div class="card">
+        <img class="card_img" src="./img/notion.png" />
+        <p class="card_title">노션</p>
+        <a href="https://velog.io/@minseoook/posts">
+          <input class="card_button" type="button" value="구경하러가기"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
